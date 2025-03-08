@@ -13,6 +13,8 @@ set -ouex pipefail
 dnf install -y tmux 
 dnf install -y sl
 
+# run it on the build because of the demo :) will look cool maybe
+sl
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
